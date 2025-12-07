@@ -8,27 +8,36 @@
 
 @layer components {
   .page-body-styling {
-    @apply bg-[#f5f589] min-h-screen flex justify-center text-center;
+    @apply bg-[#f5f589] min-h-screen flex justify-center text-center p-10;
   }
   .home-page-body-styling {
     @apply bg-[#f5f589] min-h-screen flex justify-center text-center items-center;
   }
   .navigation {
-    @apply font-handjet font-light text-3xl mt-30 space-x-10;
+    @apply font-handjet font-light text-2xl mt-20 space-x-10;
+  }
+  .navigation-homepage {
+    @apply font-handjet font-light text-3xl mt-20 space-x-10;
+  }
+  .details-styling {
+    @apply rounded border border-black shadow mt-5 hover:bg-[#ffff6b];
   }
   .accordion-summary-header {
-    @apply font-handjet font-light text-5xl mt-5 hover:underline;
+    @apply font-handjet font-light text-3xl m-2;
   }
   .accordion-summary-subtext {
-    @apply font-montserrat text-lg;
+    @apply font-montserrat text-sm m-2;
   }
-  .accoridion-content {
-    @apply font-montserrat px-4 py-3;
+  .accordion-content {
+    @apply font-montserrat text-sm m-2;
   }
-  .page-title {
+  .title-homepage {
     @apply font-handjet font-bold text-9xl;
   }
+  .page-title {
+    @apply font-handjet font-bold text-8xl;
+  }
   .header-2 {
-    @apply font-handjet font-bold text-6xl mt-10;
+    @apply font-handjet font-semibold text-4xl mt-5;
   }
 }
