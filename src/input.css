@@ -2,6 +2,33 @@
 @import "tailwindcss";
 
 @theme {
-  --font-montserrat: "Montserrat", sans-serif; 
+  --font-montserrat: "Montserrat", sans-serif;
   --font-handjet: "Handjet", sans-serif;
+}
+
+@layer components {
+  .page-body-styling {
+    @apply bg-[#f5f589] min-h-screen flex justify-center text-center;
+  }
+  .home-page-body-styling {
+    @apply bg-[#f5f589] min-h-screen flex justify-center text-center items-center;
+  }
+  .navigation {
+    @apply font-handjet font-light text-3xl mt-30 space-x-10;
+  }
+  .accordion-summary-header {
+    @apply font-handjet font-light text-5xl mt-5 hover:underline;
+  }
+  .accordion-summary-subtext {
+    @apply font-montserrat text-lg;
+  }
+  .accoridion-content {
+    @apply font-montserrat px-4 py-3;
+  }
+  .page-title {
+    @apply font-handjet font-bold text-9xl ;
+  }
+  .header-2 {
+    @apply font-handjet font-bold text-6xl mt-10;
+  }
 }

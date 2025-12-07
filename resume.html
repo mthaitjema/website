@@ -2,24 +2,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Marten Haitjema</title>
+    <title>Marten Haitjema - Resume</title>
     <link href="dist/output.css" rel="stylesheet" />
   </head>
 
   <body
-    class="bg-[#f5f589] min-h-screen flex items-center justify-center text-center"
+    class="page-body-styling"
   >
     <div>
       <header class="">
-        <h1 class="font-handjet font-bold text-9xl">Resume</h1>
+        <h1 class="page-title">Resume</h1>
       </header>
       <nav>
-        <list class="font-handjet font-light text-3xl mt-20 space-x-10">
+        <list class="navigation">
           <a href="index.html" class="hover:underline">Back to home</a>
         </list>
       </nav>
+      <p class="font-montserrat mt-5">
+        (You can click on each title to expand or collapse details)
+      </p>
+      <!-- Technologies -->
       <div>
-        <h2 class="font-handjet font-bold text-6xl mt-10">Technologies</h2>
+        <h2 class="header-2">Technologies</h2>
         <ul class="font-handjet font-light text-3xl mt-5">
           <li>Python..........Stedin &amp; Project MARCH</li>
           <li>SQL................................................Stedin</li>
@@ -28,63 +32,57 @@
           <li>Git..................Stedin &amp; Project MARCH</li>
         </ul>
       </div>
+      <!-- Experience -->
       <div>
-        <h2 class="font-handjet font-bold text-6xl mt-10">Experience</h2>
-        <p class="font-montserrat text-lg mt-5">
-          You can click on each title to expand or collapse the details.
-        </p>
-
+        <h2 class="header-2">Experience</h2>
         <details>
           <summary class="list-none">
-            <h3 class="font-handjet font-light text-5xl mt-5 hover:underline">
+            <h3 class="accordion-summary-header">
               Data Engineer @ Stedin (2024-Present)
             </h3>
-            <p class="font-montserrat text-lg">
+            <p class="accordion-summary-subtext">
               Catchy phrase about working as a data engineer at Stedin.
             </p>
           </summary>
-          <div class="px-4 py-3">Some more details.</div>
+          <div class="accordion-content">Some more details.</div>
         </details>
-
         <details>
           <summary class="list-none">
-            <h3 class="font-handjet font-light text-5xl mt-5 hover:underline">
+            <h3 class="accordion-summary-header">
               Motion Planning Engineer @ Project MARCH (2021-2022)
             </h3>
-            <p class="font-montserrat text-lg">
+            <p class="accordion-summary-subtext">
               Catchy phrase about building exoskeletons with Project MARCH.
             </p>
           </summary>
-          <div class="px-4 py-3">Some more details.</div>
+          <div class="accoridion-content">Some more details.</div>
         </details>
       </div>
-
+      <!-- Education -->
       <div>
-        <h2 class="font-handjet font-bold text-6xl mt-10">Education</h2>
-
+        <h2 class="header-2">Education</h2>
         <details>
           <summary class="list-none">
-            <h3 class="font-handjet font-light text-5xl mt-5 hover:underline">
+            <h3 class="accordion-summary-header">
               MSc BioMedical Engineering @ TU Delft (2020-2023)
             </h3>
-            <p class="font-montserrat text-lg">
+            <p class="accordion-summary-subtext">
               Some cool story about studying biomedical engineering at TU Delft.
             </p>
           </summary>
-          <div class="px-4 py-3">Some more details.</div>
+          <div class="accoridion-content">Some more details.</div>
         </details>
-
         <details>
           <summary class="list-none">
-            <h3 class="font-handjet font-light text-5xl mt-5 hover:underline">
+            <h3 class="accordion-summary-header">
               BSc Human Movement Sciences @ VU Amsterdam (2017-2020)
             </h3>
-            <p class="font-montserrat text-lg">
+            <p class="accordion-summary-subtext">
               Some cool story about studying human movement sciences at VU
               Amsterdam.
             </p>
           </summary>
-          <div class="px-4 py-3">Some more details.</div>
+          <div class="accoridion-content">Some more details.</div>
         </details>
       </div>
     </div>
