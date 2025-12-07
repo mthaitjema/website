@@ -26,7 +26,7 @@
     @apply font-montserrat px-4 py-3;
   }
   .page-title {
-    @apply font-handjet font-bold text-9xl ;
+    @apply font-handjet font-bold text-9xl;
   }
   .header-2 {
     @apply font-handjet font-bold text-6xl mt-10;
