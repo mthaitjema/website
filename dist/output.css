@@ -186,6 +186,9 @@
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
   }
+  .grid {
+    display: grid;
+  }
   .list-none {
     list-style-type: none;
   }
@@ -218,7 +221,11 @@
     justify-content: center;
     background-color: #f5f589;
     padding: calc(var(--spacing) * 10);
+    padding-bottom: calc(var(--spacing) * 40);
     text-align: center;
+    @media (width >= 48rem) {
+      padding-bottom: calc(var(--spacing) * 10);
+    }
   }
   .home-page-body-styling {
     display: flex;
